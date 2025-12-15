@@ -1,0 +1,39 @@
+<!DOCTYPE html
+<html lang = "pt-BR">
+    <head style="background-color:#383939"> 
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Formulário de Contato</title>
+        <style>
+  button:hover {
+    background-color: #aee637; /* Cor de fundo ao passar o mouse */
+    color: black; /* Cor do texto */
+    cursor: pointer; /* Cursor de mão */
+    transform: scale(1.05); /* Leve aumento */
+    transition: all 0.3s ease; /* Animação suave */
+  }
+</style>
+    </head>
+    <body>
+        <header style ="background-color:#383939;padding:25px;margin:-10px;">
+            <h1 style="text-align: center;color:white"> BlueWave Media <h1>   
+        </header> 
+        <h2 style = "color:black;text-align: center;">Estamos melhorando nossos serviços para prestar um melhor atendimento. Responda o formulário abaixo para atualizar nosso banco de dados.</h2>
+        <br>
+        <br>
+          <form method="post" style="background-color:#149c68; padding:20px; max-width:600px; margin:auto;">
+            <label for="name" style="display:block; margin-bottom:10px;">Nome:</label>
+            <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin-bottom:20px;">
+            
+            <label for="Telefone" style="display:block; margin-bottom:10px;">Telefone:</label>
+            <input type="number" id="telefone" name="telefone" required style="width:100%; padding:8px; margin-bottom:20px;">
+
+            <label for="E-mail" style="display:block; margin-bottom:10px;">E-mail:</label>
+            <input type="text" id="E-mail" name="E-mail" required style="width:100%; padding:8px; margin-bottom:20px;">
+            
+            <label for="mensagem de sugestão" style="display:block; margin-bottom:10px;">Mensagem de sugestão:</label>
+            <input type="text" id="mensagem de sugestão" name="mensagem de sugestão" required style="width:100%; padding:30px; margin-bottom:20px;">
+
+            <button type="submit" style="display:block; margin:0 auto;width:300px;height: 30px" hover>Enviar</button>
+    </body>
+</html>
